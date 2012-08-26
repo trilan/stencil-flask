@@ -9,7 +9,7 @@ from {{ app_name }}.models import db
 
 DIR = os.path.join(os.path.dirname(__file__), '..')
 CONFIG = os.path.join(DIR, 'config', 'test.yml')
-CONFIG = os.environ.get('{{ app_name|upper }}', CONFIG)
+CONFIG = os.environ.get('{{ app_name|upper }}_CONFIG', CONFIG)
 
 
 class ContextVariableDoesNotExist(Exception):
