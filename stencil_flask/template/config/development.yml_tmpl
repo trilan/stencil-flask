@@ -1,0 +1,2 @@
+debug: true
+sqlalchemy_database_uri: postgresql://localhost/{{ app_name }}
