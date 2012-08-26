@@ -1,7 +1,7 @@
 Stencil-flask
 =============
 
-Stencil-flask is `Stencil<https://github.com/yumike/Stencil>`_
+Stencil-flask is `Stencil <https://github.com/yumike/stencil>`_
 powered template for simple flask app with
 some batteries like ``alembic`` and ``tests`` included.
 
